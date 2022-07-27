@@ -1,0 +1,19 @@
+#bg {
+    background-color: aqua;
+}
+
+#big_box {
+    height: 600px;
+    width: 500px;
+}
+
+.prompt {
+    font-size: 20px;
+}
+
+#color {
+    width: 100px;
+    height: 30px;
+    border: black solid 2px;
+    font-size: 15px;
+}
