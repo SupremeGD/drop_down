@@ -4,9 +4,9 @@
 .btn {
     width: 180px;
     height: 60px;
-    background-color: rgb(201, 202, 203);
+    color: darkgrey;
+    background-color: white;
     font-size: 35px;
-    border: none;
 }
 .content {
     width: 180px;
@@ -27,33 +27,32 @@
 .btn1:hover {
     background-color: black;
     color: white;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     border-radius: 20px;
     border: none;
 }
 .btn2:hover {
     background-color: red;
     color: white;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     border-radius: 20px;
     border: none;
 }
 .btn3:hover {
     background-color: green;
     color: white;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     border-radius: 20px;
     border: none;
 }
 .btn4:hover {
     background-color: yellow;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     border-radius: 20px;
     border: none;
 }
 .btn:hover {
-    background-color: rgb(150, 152, 152);
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     border-radius: 25px;
 }
 .drop_down:hover .content {
