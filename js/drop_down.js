@@ -3,7 +3,7 @@ window.onload = function () {
     var myColor = document.getElementById("color");
     var colorOption = myColor.value;
     
-    myColor.onclick = function() {
+    myColor.onchange = function() {
         colorOption = myColor.value;
         if (colorOption == 0) {
             myBody.style.background = "white";
