@@ -6,10 +6,10 @@
 
     <link rel="stylesheet" href="css/drop_down3.css">
 </head>
-<body>
+<body id="bg">
     <div class="dropdown-container">
         <button class="dropdown-button main-button" id="drop_button">
-            <span class="dropdown-title text-truncate">切换</span>
+            <span class="dropdown-title text-truncate" id="switch">切换</span>
             <span class="dropdown-arrow">
                 <svg viewBox="0 0 16 16">
                     <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
@@ -17,11 +17,11 @@
             </span>
         </button>
         <div class="dropdown_content">
-            <button class="color">黑色</button>
-            <button class="color">白色</button>
-            <button class="color">红色</button>
-            <button class="color">橙色</button>
-            <button class="color">绿色</button>
+            <button class="color" id="black" value="黑色">黑色</button>
+            <button class="color" id="white" value="白色">白色</button>
+            <button class="color" id="red" value="红色">红色</button>
+            <button class="color" id="orange" value="橙色">橙色</button>
+            <button class="color" id="green" value="绿色">绿色</button>
         </div>
     </div>
 
