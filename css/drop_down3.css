@@ -91,6 +91,3 @@ svg{
     border: 0.1rem solid #2c62f6;
     box-shadow: 0 0 0 0.2rem rgba(44,98,246,0.4);
 }
-.dropdown-container:hover .dropdown_content{
-    display: block;
-}

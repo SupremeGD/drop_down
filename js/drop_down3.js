@@ -5,7 +5,21 @@ var btn3 = document.getElementById("green");
 var btn4 = document.getElementById("orange");
 var btn5 = document.getElementById("white");
 var btn0 = document.getElementById("switch");
-var content;
+
+var button = document.getElementById("drop_button");
+var dropdown = document.getElementById("content");
+
+var sum = 0;
+button.onclick = function () {
+    dropdown = document.getElementById("content");
+    if ( sum % 2 == 0 ) {
+        dropdown.style.display = "block";
+    } else {
+        dropdown.style.display = "none";
+    }
+    sum = sum + 1;
+}
+
 
 btn1.onclick = function () {
     body.style.background = "black";
@@ -32,3 +46,4 @@ btn5.onclick = function () {
     btn0 = document.getElementById("switch");
     btn0 = btn0.innerHTML = btn5.value;
 }
+
